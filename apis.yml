@@ -1,8 +1,15 @@
 aid: cofertility
 name: Cofertility
-description: 'Cofertility is a company surfaced as a portfolio company of initialized-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Cofertility is a human-centered fertility and family-building platform built around an egg-sharing
+  model. Through its Split program, women can freeze their eggs at no cost when they donate half of the
+  retrieved eggs to another family who cannot otherwise conceive; its Keep program offers self-funded
+  egg freezing at a discount where members retain all of their eggs. On the family-building side,
+  Cofertility matches intended parents (including LGBTQ+ families and single parents) with fresh and
+  frozen egg donors, working with 225+ clinic partners nationwide and a donor community spanning 270+
+  ethnicities. Founded by Lauren Makler, the company operates a consumer web platform (match.cofertility.com)
+  plus an extensive fertility education library. It is a consumer health company with no public developer
+  API or programmatic surface at this time; this profile captures its public web properties and posture.
 url: https://raw.githubusercontent.com/api-evangelist/cofertility/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +17,31 @@ x-backed-by:
 - initialized-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.cofertility.com/wp-content/uploads/2025/12/cofertility-website-image-2x-scaled.jpg
 tags:
 - Company
 - Consumer
+- Fertility
+- Health
+- Femtech
+- Egg Freezing
+- Egg Donation
+- Family Building
+- Reproductive Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,28 @@ maintainers:
 common:
 - type: Website
   url: https://cofertility.com/
+- type: About
+  url: https://www.cofertility.com/why-cofertility
+- type: Blog
+  url: https://www.cofertility.com/learn
+- type: Pricing
+  url: https://www.cofertility.com/family/pricing
+- type: SignUp
+  url: https://match.cofertility.com/
+- type: Login
+  url: https://match.cofertility.com/login
+- type: Support
+  url: https://www.cofertility.com/contact
+- type: TermsOfService
+  url: https://www.cofertility.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.cofertility.com/privacy-policy
+- type: LLMsTxt
+  url: llms/cofertility-llms.txt
+- type: DomainSecurity
+  url: security/cofertility-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
